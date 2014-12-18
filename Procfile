@@ -1,1 +1,1 @@
-https://github.com/asilluron/lionjs.com.git
+web: node server.js
