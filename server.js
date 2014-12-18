@@ -1,6 +1,6 @@
 var Hapi = require('hapi');
 var Path = require('path');
-var numPort = process.env.PORT ? parseInt(process.env.PORT, 10) : 8000;
+var numPort = process.env.PORT;
 
 var server = new Hapi.Server();
 
@@ -14,7 +14,6 @@ server.views({
 
 
 server.connection({
-    host: 'localhost',
     port: numPort
 });
 
