@@ -1,0 +1,32 @@
+{
+  "name": "lionjs.com",
+  "version": "0.0.0",
+  "description": "Website of LionJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asilluron/lionjs.com.git"
+  },
+  "keywords": [
+    "Angular",
+    "models",
+    "domain",
+    "mongoose",
+    "lion",
+    "lionjs",
+    "js"
+  ],
+  "author": "Andrew Silluron, Jeromy Maligie, Brian Schneider",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asilluron/lionjs.com/issues"
+  },
+  "homepage": "https://github.com/asilluron/lionjs.com",
+  "dependencies": {
+    "handlebars": "^2.0.0",
+    "hapi": "^8.0.0"
+  }
+}
